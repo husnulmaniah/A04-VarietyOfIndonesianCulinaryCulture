@@ -1,0 +1,119 @@
+@media all and (max-width: 1000px) {
+    .culinary-culture{
+      height: 700px;
+    }
+    .culinary{
+      width: 270px;
+    }
+    .culinaryy{
+      margin-left: 38px;
+    }
+
+    .content h1 {
+        font-size:100px;
+      }
+      
+    .content h2{
+        font-size: 35px;
+      }
+      
+      .content-p{
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height:35px;
+        margin: 0 20px;
+      }
+    
+    footer{
+        flex-direction: row;
+        padding-top: 30px;
+    }
+    .contact-us{
+        width: 30%;
+        margin: 10px;
+        margin-left: 25px;
+        line-height: 20px;
+    }
+    .contact-us p{
+      padding-top: 5px;
+      line-height: 25px;
+    }
+    .media-sosial{
+      margin-top: 15px;
+    }
+    .media-sosial a{
+      line-height: 20px;
+    }
+    .suggestion{
+        width: 63%;
+        margin-left: 15px;
+    }
+}
+@media all and (max-width: 670px) {
+    .header-list li{
+      padding:0 5px
+    }
+    #search{
+      width: 40%;
+    }
+    .search{
+      right: 118px;
+    }
+    .wrapper h1{
+      font-size: 60px;
+      line-height: 65px;
+      letter-spacing: 3px;
+    }
+    .wrapper p{
+      margin-bottom: 15px;
+    }
+    header{
+      height: 550px;
+    }
+
+    .heading{
+      text-align: center;
+    }
+    .culinaryy{
+      margin-left: 155px;
+    }
+    .culinary-culture{
+      height: 1500px;
+    }
+
+    
+    .content h1 {
+        font-size:85px;
+      }
+      
+    .content h2{
+        font-size: 35px;
+      }
+      
+    .content-p{
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        line-height:20px;
+        margin: 0 20px;
+      }
+    
+    footer{
+        flex-direction: column;
+    }
+    .contact-us{
+        width: 50%;
+    }
+    .contact-us p{
+      margin-right: 50px;
+    }
+    .suggestion{
+        width: 90%;
+        margin-left:25px;
+    }
+    .media-sosial{
+      margin-top: 15px;
+    }
+    .media-sosial a{
+      line-height: 20px;
+    }
+}

@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Saira+Condensed:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+    /*Style bagian Navbar*/
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    padding-left: 19px;
+    padding-right: 19px;
+    height: 41px;
+    top: 3px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 26px;
+    padding: 20px 40px;
+    font-family: "Saira Condensed", sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding-left: 19px;
+    padding-top: 3px;
+    width: 53px;
+    height: 41px;
+
+  }
+.header-list li, a, span {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 12px;
+color: rgb(255, 255, 255);
+text-decoration:none;
+}
+
+.header-list{
+    list-style: none;
+}
+
+.header-list li{
+    display: inline-block;
+    padding: 0px 25px
+}
+
+.header-list li a{
+    transition: all 0.3 ease 0s;
+}
+
+.header-list li a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+span {
+    padding: 9px 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+span:hover{
+    background-color: rgb(26, 26, 26);
+}
+
+
+    /*Style bagian Slide Header*/
+header{
+    background-image: url("pic/bg1.jpeg");
+    background-size: cover;
+    height: 690px;
+}
+
+.wrapper{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.wrapper p{
+    color: rgb(241, 241, 241);
+    font-size: 30px;
+}
+
+.wrapper h1{
+    color: white;
+    line-height: 90px;
+}
+
+#search{
+    width: 500px;
+    height: 40px;
+    padding-left: 25px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.search{
+    position: relative;
+    top: 36px;
+    right: 235px;
+    height: 25px;
+    color: black;
+}    
+    /*Style bagian Main*/
+    .heading {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: white;
+     }
+     .heading h2 {
+         font-weight: normal;
+         font-size: 60px;
+         font-family: Averia Serif Libre;
+     }
+     .culinary-culture{
+         height: 700px;
+         text-align:center; 
+         background-color: #0E0E0E;
+     }
+     .culinaryy{
+         
+         margin-left: 100px;
+     }
+     .culinary{
+         margin: 20px;
+         border: 1px solid #0E0E0E;
+         float: left;
+         width: 330px;
+         position: relative;
+     }
+     .culinary p{
+         padding: 15px;
+         text-align: center;
+     }
+         /* .culinary-icon{
+             position: relative;
+             width: 100%;
+             height: auto;
+             margin: 10px;
+         } */
+     .culinary img{
+         width: 100%;
+         height: 200px;
+         border-radius: 10px;
+     }
+     .culinary-icon h3{
+         color: #FF8A00;
+         /* position: absolute; */
+         font-size: 25px;
+         padding: 15px;
+         text-align: center;
+     }
+     .txt-contents{
+         width: 100%;
+         display: inline-block;
+         font-size: 15px;
+         color: white;
+     }
+     .link{
+         width: 50%;
+         display: inline-block;
+         margin-top: 15px;
+         font-size: 13px;
+         color:#FF8A00;
+     }
+     a:hover{
+         color: white;
+         font-size: 14px;
+     }
+    /*Style bagian About Us*/
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.bg-opacity{
+    position: relative;
+    background-color: #000;
+}
+
+.bg-opacity::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 50%;
+    background-image:url("pic/about-us.jpg");
+    background-size: cover;
+}
+
+.content{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  color:#fff;
+  text-align: center;
+  padding-top: 60px;
+}
+
+h1 {
+  font-family:'Saira Condensed';
+  font-size: 96px;
+  font-style: bold;
+}
+
+h2{
+  font-family:'Averia Serif Libre';
+  font-size: 24px;
+  letter-spacing: normal;
+  padding-top:65px;
+}
+
+.content-p{
+  font-family:'Roboto';
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height:20px;
+}
+
+/*Style bagian Footer*/
+footer{
+    background-color: black;
+    color: white;
+    height: 40%;
+    display: flex;
+    flex-direction: row;        
+    font-family: "Saira Condensed", sans-serif;
+}
+.contact-us {
+    width: 30%;
+    margin: 10px;
+    margin-left: 35px;
+    line-height: 20px;
+}
+.contact-us h1{
+    margin-top: 15px;
+    font-size: 35px;
+}
+.contact-us p{
+    margin-top: 15px;
+}
+.media-sosial a{
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    line-height: 35px;
+}
+.suggestion{
+    width: 63%;
+    margin-left: 15px;
+    background-color: black;
+}
+.suggestion h1{
+    font-size: 35px;
+}
+
+.suggestion input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #494949;
+}
+.suggestion textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #494949;
+    resize: none;
+    margin-top: 10px;
+}
+.suggestion button{
+    background-color: #603601;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.suggestion button{
+    background-color: #603601; 
+    color: white; 
+    border: 2px solid white;
+}
+.suggestion button:hover{
+    background-color:white;
+    color: black;
+}
+.footer-bottom{
+    font-size: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: white;
+}
